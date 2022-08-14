@@ -1,0 +1,180 @@
+nav.navbar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div ul>::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #000000;
+    margin: auto;
+    display: block;
+}
+
+div ul>:hover::after {
+    transition: width 0.2s linear;
+    width: 60%;
+}
+
+.list-item {
+    position: relative;
+    display: inline;
+    margin: 15px;
+    justify-content: center;
+}
+
+.mylogo {
+    position: relative;
+    left: 105px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    width: 120px;
+}
+
+ul.list {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    color: #000000;
+    font-family: 'Orbitron';
+    font-weight: 510;
+    font-size: 25px;
+}
+
+h1.hero-heading {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: 250%;
+    width: 900px;
+    font-family: 'Orbitron';
+}
+
+.square {
+    position: relative;
+    top: 140px;
+    left: 190px;
+    width: 320px;
+}
+
+.nav-button {
+    position: relative;
+    right: 120px;
+    bottom: 22px;
+}
+
+.search-icon {
+    position: relative;
+    right: 170px;
+    top: 21px;
+}
+
+.nav-button {
+    border: 4px;
+    border-radius: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: 'Poppins';
+    color: #7d7c7c;
+    border: 3px solid #000000;
+    background-color: #fff;
+}
+
+.main-character {
+    position: absolute;
+    left: 105px;
+    top: 120px;
+    width: 350px;
+}
+
+.star {
+    position: relative;
+    left: 850px;
+    top: -250px;
+    width: 50px;
+}
+
+.globe {
+    position: relative;
+    left: 390px;
+    top: -290px;
+    width: 50px;
+}
+
+p.hero-description {
+    position: relative;
+    text-align: center;
+    font-family: 'poppins';
+    color: #767575;
+    font-size: 15px;
+    width: 820px;
+}
+
+div.hero-container-right {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+
+.button-email {
+    font-family: 'Orbitron';
+    position: relative;
+    top: 65px;
+    color: #6d6868;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    font-weight: 500;
+    left: 210px;
+}
+
+.button-email:hover {
+    background-color: #9a9a9a;
+    color: #ffffff;
+}
+
+.button-join {
+    font-family: 'Orbitron';
+    position: relative;
+    top: 65px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 10px;
+    padding-left: 9px;
+    padding-right: 10px;
+    left: 210px;
+}
+
+.button-join:hover {
+    background-color: #c0c0c0;
+    color: #080808;
+}
+
+h4.contact-heading {
+    position: absolute;
+    font-family: 'Poppins';
+    color: #807e7e;
+    left: 300px;
+    top: 355px;
+    font-size: small;
+    font-weight: 500;
+}
+
+.icons {
+    display: inline;
+    position: relative;
+    top: 90px;
+    left: 260px;
+}
+
+.star2 {
+    position: relative;
+    top: 80px;
+    width: 50px;
+    left: 40px;
+}
