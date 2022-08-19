@@ -5,7 +5,7 @@
 - CSS
 
 ## Preview of this project
-![image]('pro1.JPG')
+![image](pro1.jpeg)
 
 
 ***
@@ -13,7 +13,7 @@
 ![badge](https://img.shields.io/badge/-YouTube-red)
 
 
-- [YouTube]("https://youtu.be/S8aqa7B5lPk" "YouTube Link")
+- [YouTube](https://youtu.be/S8aqa7B5lPk "YouTube Link")
 
 ![badge](https://img.shields.io/badge/-Live%20project%20link-green)
 
